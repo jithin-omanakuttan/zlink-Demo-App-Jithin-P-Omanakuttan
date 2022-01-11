@@ -64,7 +64,7 @@ function show(data) {
     for (let r of userdata) {
         tab+= ` <div class="card text-center" style="width: 18rem;margin:2rem"> <img class="card-img-top" id="thumb_img" src=`+r.picture.large+`
         
-          <h5 class="card-title text-center">`+ r.name.title+ r.name.first+r.name.last +`</h5>
+          <h5 class="card-title">`+ r.name.title+" "+ r.name.first+" "+r.name.last +`</h5>
           <p class="card-text text-center">`+r.gender+`</p>
   
         <ul class="list-group list-group-flush">
